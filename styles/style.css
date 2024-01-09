@@ -220,6 +220,11 @@ html, body{
 .prt-grp img{
   margin: 12px 0;
   width : 250px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.prt-grp img:hover{
+  opacity: .4;
 }
 .sub{
   margin: 100px;
