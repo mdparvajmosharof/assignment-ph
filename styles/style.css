@@ -2,9 +2,7 @@
   font-family: 'Martel', serif;
 /* font-family: 'Source Code Pro', monospace; */
 }
-p{
-  font-size: 12px;
-}
+
 html, body{
   height: 100%;
   margin: 0;
@@ -38,7 +36,7 @@ html, body{
 }
 .off > h1{
   font-weight: 900;
-  font-size: 60px;
+  font-size: 100px;
   color: #00C853;
   padding-bottom: 0px;
 }
@@ -164,7 +162,10 @@ html, body{
   font-size: 45px;
   color: #00C853;
 }
-
+.off50 p{
+  font-weight: 200;
+  font-size: 12px;
+}
 .off50-sct{
   margin: 0 100px;
   height: 400px;
@@ -223,6 +224,10 @@ html, body{
   font-weight: 900;
   
 }
+.portfolio p{
+  font-weight: 200;
+  font-size: 12px;
+}
 .prt-grp{
   display: flex;
   gap: 20px;
@@ -245,6 +250,8 @@ html, body{
 }
 .sub p{
   padding-bottom: 25px;
+  font-weight: 200;
+  font-size: 12px;
 }
 .sub input{
   margin: 0;
