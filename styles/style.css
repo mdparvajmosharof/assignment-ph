@@ -125,9 +125,14 @@ html, body{
 }
 .midle > img{
   padding: 20px;
-  max-width: 200px;
+  width: 200px;
   border: 10px solid #00E676;
-  border-radius: 100%
+  border-radius: 100%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.midle > img:hover{
+  width: 230px;
 }
 .right{
   padding-left: 30px;
