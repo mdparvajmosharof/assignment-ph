@@ -9,7 +9,7 @@ html, body{
 }
 .img-banner{
   margin: 100px;
-  height: 400px;
+  height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),  url("../img/Banner-Image.png");
   background-position: center;
   background-size: cover;
@@ -34,7 +34,7 @@ html, body{
   line-height: .9;
 }
 .off h1{
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 900;
   color: #00C853;
   padding-bottom: 0px;
@@ -48,7 +48,7 @@ html, body{
 }
 .victor{
   margin: 100px;
-  height: 400px;
+  height: 500px;
   background: linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),  url("../img/Vectorrr.png");
   background-position: center;
   background-size: cover;
@@ -142,7 +142,7 @@ html, body{
   color: #00C853;
 }
 .right p {
-  width: 150px;
+  
   font-size: 10px;
   font-weight: 200;
 }
@@ -165,9 +165,16 @@ html, body{
   font-weight: 200;
   font-size: 12px;
 }
+.off-org{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .off50-sct{
+  
+  width: 865px;
   margin: 0 100px;
-  height: 400px;
+  height: 420px;
   position: relative;
   
 }
@@ -181,7 +188,7 @@ html, body{
   position: relative;
 }
 .rd-grl{
-  width: 250px;
+  height: 250px;
   position: relative;
   top: 0;
   left: 0;
@@ -207,10 +214,15 @@ html, body{
   
 }
 .baji{
-  height: 230%;
+  height: 350px;
   position: absolute;
   left: 0px;
   bottom: 40px;
+}
+.portfolio-sec{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .portfolio{
   margin: 100px;
