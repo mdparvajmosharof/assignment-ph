@@ -1,0 +1,279 @@
+*{
+  font-family: 'Martel', serif;
+/* font-family: 'Source Code Pro', monospace; */
+}
+html, body{
+  height: 100%;
+  margin: 0;
+}
+.img-banner{
+  margin: 100px;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),  url("../img/Banner-Image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.ban-txt{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  
+}
+.ban-txt > h3, h1{
+  font-weight: 900;
+  line-height: .98
+}
+.off{
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  line-height: .9;
+}
+.off > h1{
+  font-weight: 900;
+  font-size: 50px;
+  color: #00C853;
+  padding-bottom: 10px;
+}
+.off > h4{
+  color: #00C853;
+}
+.off > img{
+  
+  width: 60%;
+}
+.victor{
+  margin: 100px;
+  height: 400px;
+  background: linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),  url("../img/Vectorrr.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.vic-txt{
+  color: white;
+  padding-left: 50px;
+  
+}
+.vic-txt > h1{
+  font-size: 40px;
+  font-weight: 900;
+  line-height: .7;
+}
+.vic-txt > p{
+  font-size: 10px;
+  font-weight: 200;
+}
+.vic-img > img{
+ max-height: 300px;
+ /* width: 70%; */
+ padding-right: 50px;
+}
+.vic-txt > button{
+  padding: 15px 30px;
+  background: transparent;
+  border: 0;
+  color: white;
+  font-weight: 900;
+}
+.date{
+  margin: 100px;
+  padding: 100px ;
+  background: linear-gradient(#B9F6CA, white);
+  text-align: center;
+  border-radius: 10px;
+  line-height: .8;
+}
+.date span{
+  color: #00C853;
+  font-weight: 900;
+}
+.date button{
+  margin: 20px 0;
+  padding: 10px 30px;
+  font-weight: 900;
+  color: white;
+  background-color: #00C853;
+  border: none;
+  border-radius: 10px;
+}
+.offer-24{
+  margin: 100px;
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.left h5{
+  color: #00C853;
+}
+.left h1{
+  font-weight: 900;
+}
+.left p{
+  font-size: 10px;
+  font-weight: 200;
+}
+.midle > img{
+  padding: 20px;
+  max-width: 200px;
+  border: 10px solid #00E676;
+  border-radius: 100%
+}
+.right{
+  padding-left: 30px;
+}
+.right h2{
+  color: #00C853;
+}
+.right p {
+  font-size: 10px;
+  font-weight: 200;
+}
+.right img{
+  max-width: 70px;
+}
+.off50{
+  margin: 100px 100px 50px;
+  text-align: center;
+}
+.off50 > h1{
+  font-weight: 900;
+  
+}
+.off50 span{
+  font-size: 45px;
+  color: #00C853;
+}
+
+.off50-sct{
+  margin: 0 100px;
+  height: 400px;
+  position: relative;
+  
+}
+.off50-1{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.rd-grp{
+  
+  position: relative;
+}
+.rd-grl{
+  width: 250px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.rd-50{
+  width: 100px;
+  position: absolute;
+  top: 30%;
+  left: -50px;
+}
+.off50-2{
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+
+.img-grp{
+  position: relative;
+}
+.sld-rd{
+  width: 100%;
+  position: relative;
+  
+}
+.baji{
+  height: 230%;
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+}
+.portfolio{
+  margin: 100px;
+  
+}
+.portfolio  h4{
+  color: #00C853;
+}
+.portfolio  h1{
+  font-weight: 900;
+  
+}
+.prt-grp{
+  display: flex;
+  gap: 20px;
+}
+.prt-grp img{
+  margin: 12px 0;
+  width : 250px;
+}
+.sub{
+  margin: 100px;
+  padding: 50px;
+  background: #9AFF9E6E;
+  border-radius: 10px;
+  text-align: center;
+}
+.sub p{
+  padding-bottom: 25px;
+}
+.sub input{
+  margin: 0;
+  padding: 10px 30px;
+  padding-right: 50px;
+  outline: none;
+  border: none;
+  border-radius: 30px 0 0 30px;
+}
+.sub button{
+  
+  margin: 0;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  background-color: #00C853;
+  color: white;
+  font-weight: 900;
+}
+.foot{
+  padding: 50px 100px;
+  background-color: black;
+  color: white;
+}
+.foot1{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.ft-txt{
+  line-height: 2;
+}
+.icon-txt{
+  display: flex;
+  padding: 10px;
+  gap: 20px 
+}
+.icon{
+  text-align: center;
+}
+.icon img{
+  padding: 10px;
+}
+.foot2{
+  display: flex;
+  justify-content: space-between;
+}
