@@ -34,7 +34,7 @@ html, body{
   text-align: center;
   line-height: .9;
 }
-.off > h1{
+.off h1{
   font-weight: 900;
   font-size: 100px;
   color: #00C853;
