@@ -2,6 +2,9 @@
   font-family: 'Martel', serif;
 /* font-family: 'Source Code Pro', monospace; */
 }
+p{
+  font-size: 12px;
+}
 html, body{
   height: 100%;
   margin: 0;
@@ -35,7 +38,7 @@ html, body{
 }
 .off > h1{
   font-weight: 900;
-  font-size: 55px;
+  font-size: 60px;
   color: #00C853;
   padding-bottom: 0px;
 }
